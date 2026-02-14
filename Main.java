@@ -17,7 +17,7 @@ public class Main {
 			while (myReader.hasNextLine()) {
 				String line = myReader.nextLine();
 				line = line.strip();
-				//TODO connect methods from abstract factory to tokens
+				//TODO connect methods factories in Map to tolkens
 				System.out.println(line);
 				}
 			}

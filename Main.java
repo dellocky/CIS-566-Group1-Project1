@@ -21,9 +21,9 @@ public class Main {
 				System.out.println(line);
 				}
 			}
-			catch (FileNotFoundException e) {
-				System.out.println("An error occurred, please ensure correct input file path");
-				//e.printStackTrace();
+		catch (FileNotFoundException e) {
+			System.out.println("An error occurred, please ensure correct input file path");
+			//e.printStackTrace();
 			
 		}
 	}
